@@ -8,7 +8,7 @@ module.exports = {
 	output: {
 		file: `./dist/dayjs-plugins.min.js`,
 		format: 'umd',
-		name,
+		name: 'mailbutler_dayjs_plugins',
 		globals: { dayjs: 'dayjs' }
 	}
 };

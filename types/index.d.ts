@@ -1,6 +1,6 @@
 import { PluginFunc, ConfigType } from 'dayjs';
 
-export const additionalFormats: PluginFunc
+export const calendarLocalization: PluginFunc
 export const relative: PluginFunc
 
 declare module 'dayjs' {

@@ -1,6 +1,6 @@
 # @mailbutler/dayjs-plugins
 
-Dayjs plugin adding custom calendar formatting to Dayjs.
+A set of utility and formatting plugins for Dayjs.
 
 ## Getting Started
 

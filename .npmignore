@@ -1,0 +1,6 @@
+!dist/
+
+src/
+.eslint*
+.prettierignore
+*.config.js

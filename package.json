@@ -1,6 +1,6 @@
 {
 	"name": "@mailbutler/dayjs-plugins",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Mailbutler dayjs utility and formatting plugins.",
 	"main": "dist/dayjs-plugins.min.js",
 	"types": "types/index.d.ts",

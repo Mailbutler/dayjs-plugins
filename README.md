@@ -13,6 +13,7 @@ The plugins in this package depends on the following dayjs plugins:
 You also need to import the following locales before registering the plugin:
 - **de**
 - **en**
+- **es**
 - **fr**
 
 > You need to import those dependencies **before** you import the plugins from this package.
@@ -33,7 +34,7 @@ Dayjs must be available as a global object so you will need to import it from a 
 
 ```html
 <script src="https://unpkg.com/dayjs@1.8.15/dayjs.min.js"></script>
-<script src="https://unpkg.com/@mailbutler/dayjs-plugins@0.1.0/dist/dayjs-plugin-mailbutler-calendar.min.js"></script>
+<script src="https://unpkg.com/@mailbutler/dayjs-plugins@0.2.3/dist/dayjs-plugin-mailbutler-calendar.min.js"></script>
 ```
 
 ### Quick start 
@@ -51,6 +52,7 @@ const { relative, calendarLocalization } = require('@mailbutler/dayjs-plugins')
 // import required translation files
 require('dayjs/locale/de')
 require('dayjs/locale/en')
+require('dayjs/locale/es')
 require('dayjs/locale/fr')
 
 // register required plugins
@@ -67,8 +69,9 @@ dayjs.extends(relative)
 > Depends on `calendar` and `localizedFormat` plugins.
 
 Adds localized formatting for the calendar for the folllowing languages:
-- en
 - de
+- en
+- es
 - fr
 
 When using `calendar` with one of these languages, the output string will be localized.

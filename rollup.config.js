@@ -1,10 +1,10 @@
-const babel = require('rollup-plugin-babel');
-const uglify = require('rollup-plugin-uglify');
+const { babel } = require('@rollup/plugin-babel');
+const { terser } = require('rollup-plugin-terser');
 
 module.exports = {
 	input: './src/index.js',
 	external: ['dayjs'],
-	plugins: [babel({ exclude: 'node_modules/**' }), uglify()],
+	plugins: [babel({ exclude: 'node_modules/**' }), terser()],
 	output: {
 		file: `./dist/dayjs-plugins.min.js`,
 		format: 'umd',

@@ -3,7 +3,7 @@ const calendar = {
 	nextDay: '[Morgen], LT',
 	nextWeek: '[Nächster] dddd, LT',
 	lastDay: '[Gestern], LT',
-	lastWeek: 'dddd, LT',
+	lastWeek: '[Letzter] dddd, LT',
 	sameElse: 'L, LT'
 };
 

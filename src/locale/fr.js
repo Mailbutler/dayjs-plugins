@@ -1,9 +1,9 @@
 const calendar = {
 	sameDay: 'LT',
 	nextDay: '[Demain], LT',
-	nextWeek: 'dddd [Prochain], LT',
+	nextWeek: 'dddd [prochain], LT',
 	lastDay: '[Hier], LT',
-	lastWeek: 'dddd, LT',
+	lastWeek: 'dddd [dernier], LT',
 	sameElse: 'L LT'
 };
 
